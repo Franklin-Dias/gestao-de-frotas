@@ -1141,7 +1141,7 @@ Por favor, confirme o recebimento.`;
             <button
               onClick={() => setIsColheitaExpanded(!isColheitaExpanded)}
               className="btn-expand"
-              style={{ background: "transparent", border: "none", color: "white", cursor: "pointer", fontSize: "1.2rem" }}
+              style={{ background: "transparent", border: "none", color: "#1C1C1E", cursor: "pointer", fontSize: "1.2rem" }}
               title={isColheitaExpanded ? "Minimizar" : "Expandir"}
             >
               {isColheitaExpanded ? <FaChevronUp /> : <FaChevronDown />}
@@ -1296,7 +1296,7 @@ Por favor, confirme o recebimento.`;
             <button
               onClick={() => setIsProdutividadeExpanded(!isProdutividadeExpanded)}
               className="btn-expand"
-              style={{ background: "transparent", border: "none", color: "white", cursor: "pointer", fontSize: "1.2rem" }}
+              style={{ background: "transparent", border: "none", color: "#1C1C1E", cursor: "pointer", fontSize: "1.2rem" }}
               title={isProdutividadeExpanded ? "Minimizar" : "Expandir"}
             >
               {isProdutividadeExpanded ? <FaChevronUp /> : <FaChevronDown />}
@@ -1315,7 +1315,8 @@ Por favor, confirme o recebimento.`;
             <div
               className="stat-box"
               style={{
-                background: "#e3f2fd",
+                background: "#BFC0C0",
+                border: "1px solid #6E6E73",
                 padding: "15px",
                 borderRadius: "8px",
                 flex: "1",
@@ -1326,20 +1327,21 @@ Por favor, confirme o recebimento.`;
               <span
                 style={{
                   display: "block",
-                  color: "#1565c0",
+                  color: "#1C1C1E",
                   marginBottom: "5px",
                 }}
               >
                 Total Hectares
               </span>
-              <strong style={{ fontSize: "1.5rem", color: "#0d47a1" }}>
+              <strong style={{ fontSize: "1.5rem", color: "#1C1C1E" }}>
                 {totalHectares} ha
               </strong>
             </div>
             <div
               className="stat-box"
               style={{
-                background: "#e8f5e9",
+                background: "#BFC0C0",
+                border: "1px solid #6E6E73",
                 padding: "15px",
                 borderRadius: "8px",
                 flex: "1",
@@ -1350,38 +1352,38 @@ Por favor, confirme o recebimento.`;
               <span
                 style={{
                   display: "block",
-                  color: "#2e7d32",
+                  color: "#1C1C1E",
                   marginBottom: "5px",
                 }}
               >
                 Cargas Realizadas
               </span>
-              <strong style={{ fontSize: "1.5rem", color: "#1b5e20" }}>
+              <strong style={{ fontSize: "1.5rem", color: "#1C1C1E" }}>
                 {totalCargas}
               </strong>
             </div>
             <div
               className="stat-box"
               style={{
-                background: "#fff3e0",
+                background: "#BFC0C0",
                 padding: "15px",
                 borderRadius: "8px",
                 flex: "1",
                 minWidth: "150px",
                 textAlign: "center",
-                border: "1px solid #ffe0b2",
+                border: "1px solid #6E6E73",
               }}
             >
               <span
                 style={{
                   display: "block",
-                  color: "#ef6c00",
+                  color: "#1C1C1E",
                   marginBottom: "5px",
                 }}
               >
                 Média ha/Carga
               </span>
-              <strong style={{ fontSize: "1.5rem", color: "#e65100" }}>
+              <strong style={{ fontSize: "1.5rem", color: "#1C1C1E" }}>
                 {mediaHaPorCarga} ha
               </strong>
             </div>
@@ -1393,20 +1395,20 @@ Por favor, confirme o recebimento.`;
                 flex: "2",
                 minWidth: "300px",
                 height: "100px",
-                background: "#f9f9f9",
+                background: "#F0F1F2",
                 borderRadius: "8px",
                 padding: "10px 20px",
                 display: "flex",
                 alignItems: "flex-end",
                 justifyContent: "space-around",
-                border: "1px solid #eee",
+                border: "1px solid #6E6E73",
               }}
             >
               <div style={{ textAlign: "center", width: "30%" }}>
                 <div
                   style={{
                     height: totalHectares > 0 ? "60px" : "2px",
-                    background: "#1976d2",
+                    background: "#5A738E",
                     borderRadius: "4px 4px 0 0",
                     transition: "height 0.5s",
                   }}
@@ -1428,7 +1430,7 @@ Por favor, confirme o recebimento.`;
                       totalCargas > 0
                         ? `${Math.min(totalCargas * 5, 60)}px`
                         : "2px",
-                    background: "#43a047",
+                    background: "#5A738E",
                     borderRadius: "4px 4px 0 0",
                     transition: "height 0.5s",
                   }}
@@ -1450,7 +1452,7 @@ Por favor, confirme o recebimento.`;
                       parseFloat(mediaHaPorCarga) > 0
                         ? `${Math.min(parseFloat(mediaHaPorCarga) * 10, 60)}px`
                         : "2px",
-                    background: "#fb8c00",
+                    background: "#6E6E73",
                     borderRadius: "4px 4px 0 0",
                     transition: "height 0.5s",
                   }}

@@ -55,7 +55,7 @@ L.Icon.Default.mergeOptions({
 const truckIconMarkup = renderToStaticMarkup(
   <div className="truck-icon-markup">
     <FaTruck />
-  </div>
+  </div>,
 );
 
 const truckIcon = L.divIcon({
@@ -70,7 +70,7 @@ const truckIcon = L.divIcon({
 const tollIconMarkup = renderToStaticMarkup(
   <div className="toll-icon-markup">
     <FaMoneyBillWave />
-  </div>
+  </div>,
 );
 
 const tollIcon = L.divIcon({
@@ -153,7 +153,7 @@ const Home = () => {
       setVeiculosManutencao(emManutencao);
 
       const historico = JSON.parse(
-        localStorage.getItem("historicoManutencao") || "[]"
+        localStorage.getItem("historicoManutencao") || "[]",
       );
       setHistoricoManutencao(historico);
 
@@ -295,8 +295,8 @@ const Home = () => {
     try {
       const response = await fetch(
         `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(
-          input
-        )}`
+          input,
+        )}`,
       );
       const data = await response.json();
       if (data && data.length > 0) {
@@ -313,7 +313,7 @@ const Home = () => {
       // OSRM usa lon,lat
       const excludeParam = avoidTolls ? "&exclude=toll" : "";
       const response = await fetch(
-        `https://router.project-osrm.org/route/v1/driving/${start[1]},${start[0]};${end[1]},${end[0]}?overview=full&geometries=geojson&steps=true${excludeParam}`
+        `https://router.project-osrm.org/route/v1/driving/${start[1]},${start[0]};${end[1]},${end[0]}?overview=full&geometries=geojson&steps=true${excludeParam}`,
       );
       const data = await response.json();
       if (data.routes && data.routes[0]) {
@@ -479,10 +479,10 @@ const Home = () => {
     indexOfLastMaintenance - maintenanceItemsPerPage;
   const currentMaintenanceItems = historicoManutencao.slice(
     indexOfFirstMaintenance,
-    indexOfLastMaintenance
+    indexOfLastMaintenance,
   );
   const totalMaintenancePages = Math.ceil(
-    historicoManutencao.length / maintenanceItemsPerPage
+    historicoManutencao.length / maintenanceItemsPerPage,
   );
 
   return (
@@ -795,7 +795,7 @@ const Home = () => {
                       <span
                         className="toll-warning"
                         style={{
-                          color: routeInfo.hasTolls ? "#ffc107" : "#fff",
+                          color: routeInfo.hasTolls ? "#1C1C1E" : "#6E6E73",
                         }}
                       >
                         {routeInfo.hasTolls && <FaMoneyBillWave />}
@@ -931,13 +931,13 @@ const Home = () => {
                             <td>{item.motorista}</td>
                             <td>
                               {new Date(
-                                item.inicioManutencao || item.dataHora
+                                item.inicioManutencao || item.dataHora,
                               ).toLocaleString("pt-BR")}
                             </td>
                             <td>
                               <span className="badge danger">
                                 {calcularTempo(
-                                  item.inicioManutencao || item.dataHora
+                                  item.inicioManutencao || item.dataHora,
                                 )}
                               </span>
                             </td>
@@ -1010,7 +1010,7 @@ const Home = () => {
                                 <td>{item.motorista}</td>
                                 <td>
                                   {new Date(item.inicio).toLocaleString(
-                                    "pt-BR"
+                                    "pt-BR",
                                   )}
                                 </td>
                                 <td>
@@ -1038,7 +1038,7 @@ const Home = () => {
                         <button
                           onClick={() =>
                             setCurrentMaintenancePage((prev) =>
-                              Math.max(prev - 1, 1)
+                              Math.max(prev - 1, 1),
                             )
                           }
                           disabled={currentMaintenancePage === 1}
@@ -1053,7 +1053,7 @@ const Home = () => {
                         <button
                           onClick={() =>
                             setCurrentMaintenancePage((prev) =>
-                              Math.min(prev + 1, totalMaintenancePages)
+                              Math.min(prev + 1, totalMaintenancePages),
                             )
                           }
                           disabled={

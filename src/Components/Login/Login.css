@@ -6,16 +6,16 @@
   place-content: center;
   width: 100%;
   height: 100vh;
-  border: 1px solid rgba(3, 74, 166, 0.15);
-
-  background-color: rgba(191, 151, 101, 0.15);
+  border: 1px solid rgba(90, 115, 142, 0.15);
+  overflow: hidden;
+  background-color: #F0F1F2;
   backdrop-filter: blur(10px);
-  box-shadow: 2px 2px rgba(1, 28, 64, 0.2);
- 
+  box-shadow: 2px 2px rgba(90, 115, 142, 0.2);
 }
 
-.form-container{
+.form-container {
   display: flex;
+  background-color: #1C1C1E;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
 .container h1 {
   text-align: center;
   font-size: 30px;
-  color: #000;
+  color: #F0F1F2;
   margin-bottom: 20px;
 }
 
@@ -39,17 +39,17 @@
 .input-field input {
   width: 100%;
   height: 100%;
-  background-color: transparent;
+  background-color: #F0F1F2;
   outline: none;
-  border: 1px solid rgba(191, 151, 101, 0.15);
+  border: 1px solid #5A738E;
   border-radius: 8px;
   padding: 20px 45px;
   font-size: 16px;
-  color: #000;
+  color: #1C1C1E;
 }
 
 .input-field input::placeholder {
-  color: #bf976588;
+  color: #6E6E73;
 }
 .input-field .icon {
   position: absolute;
@@ -57,7 +57,7 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 16px;
-  color: #000;
+  color: #BFC0C0;
 }
 
 .container .recall-forget {
@@ -69,7 +69,7 @@
 }
 
 .recall-forget label {
-  color: #000;
+  color: #F0F1F2;
 }
 
 .recall-forget input {
@@ -78,7 +78,7 @@
 
 .recall-forget a,
 .signup-link p a {
-  color: #000;
+  color: #F0F1F2;
   text-decoration: none;
 }
 
@@ -86,17 +86,17 @@
 .signup-link p a:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: #bf976588;
+  color: #BFC0C0;
 }
 
 .container button {
   width: 100%;
   height: 50px;
-  background-color: #bf9765;
-  box-shadow: 0 0 10px rgba(1, 28, 64, 0.1);
+  background-color: #5A738E;
+  box-shadow: 0 0 10px rgba(90, 115, 142, 0.1);
   border: none;
   border-radius: 20px;
-  color: #000;
+  color: #F0F1F2;
   font-size: 16px;
   text-shadow: none;
   cursor: pointer;
@@ -106,13 +106,13 @@
 }
 
 .container button:hover {
-  background-color: #011c407a;
+  background-color: #6E6E73;
   transition: 0.9s;
 }
 
 .container .signup-link {
   font-size: 15px;
-  color: #000;
+  color: #F0F1F2;
   text-align: center;
   margin: 20px 0 10px;
 }
@@ -123,8 +123,4 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
- 
-  
-
 }

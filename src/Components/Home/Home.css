@@ -3,15 +3,15 @@
   min-height: 100vh;
   max-width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #08401b;
-  color: #fff;
+  background-color: #F0F1F2;
+  color: #1C1C1E;
 }
 
 /* Sidebar */
 .sidebar {
   width: 250px;
-  background-color: #132426;
-  color: #fff;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +19,7 @@
 .sidebar-header {
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid #0a5926;
+  border-bottom: 1px solid #5A738E;
 }
 
 .sidebar nav {
@@ -30,16 +30,16 @@
 
 .sidebar nav a {
   padding: 15px 20px;
-  color: #fff;
+  color: #F0F1F2;
   text-decoration: none;
   transition: 0.3s;
 }
 
 .sidebar nav a:hover,
 .sidebar nav a.active {
-  background-color: #0a5926;
-  color: #fff;
-  border-left: 4px solid #03a64a;
+  background-color: #5A738E;
+  color: #F0F1F2;
+  border-left: 4px solid #F0F1F2;
 }
 
 /* Main Content */
@@ -54,16 +54,16 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  background: #132426;
+  background: #1C1C1E;
   padding: 15px 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px rgba(28, 28, 30, 0.12);
 }
 
 .topbar h1 {
   margin: 0;
   font-size: 1.5rem;
-  color: #fff;
+  color: #F0F1F2;
 }
 
 .user-info {
@@ -74,13 +74,13 @@
 
 .avatar {
   font-size: 1.5rem;
-  color: #05f26c;
+  color: #BFC0C0;
 }
 
 .logout-btn {
   background: none;
   border: none;
-  color: #05f26c;
+  color: #BFC0C0;
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -94,10 +94,10 @@
 }
 
 .stat-card {
-  background: #132426;
+  background: #BFC0C0;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px rgba(28, 28, 30, 0.12);
   display: flex;
   align-items: center;
   gap: 20px;
@@ -113,20 +113,20 @@
 }
 
 .stat-card.blue .stat-icon {
-  background: #08401b;
-  color: #fff;
+  background: #5A738E;
+  color: #F0F1F2;
 }
 .stat-card.green .stat-icon {
-  background: #08401b;
-  color: #fff;
+  background: #6E6E73;
+  color: #F0F1F2;
 }
 .stat-card.orange .stat-icon {
-  background: #08401b;
-  color: #fff;
+  background: #BFC0C0;
+  color: #1C1C1E;
 }
 .stat-card.red .stat-icon {
-  background: #08401b;
-  color: #fff;
+  background: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .stat-details h3 {
@@ -137,24 +137,24 @@
 
 .stat-details p {
   margin: 5px 0 0;
-  color: #fff;
+  color: #1C1C1E;
   font-size: 0.9rem;
 }
 
 /* Recent Activity Table */
 .recent-activity {
-  background: #132426;
+  background: #BFC0C0;
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px rgba(28, 28, 30, 0.12);
 }
 
 .recent-activity h2 {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 1.2rem;
-  color: #fff;
+  color: #1C1C1E;
 }
 
 .table-container {
@@ -170,11 +170,13 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #03a64a;
+  border-bottom: 1px solid #6E6E73;
+  color: #1C1C1E;
 }
 
 th {
-  color: #fff;
+  background: #1C1C1E;
+  color: #F0F1F2;
   font-weight: 600;
 }
 
@@ -186,16 +188,16 @@ th {
 }
 
 .badge.success {
-  background: #08401b;
-  color: #05f26c;
+  background: #5A738E;
+  color: #F0F1F2;
 }
 .badge.warning {
-  background: #08401b;
-  color: #f39c12;
+  background: #BFC0C0;
+  color: #1C1C1E;
 }
 .badge.danger {
-  background: #08401b;
-  color: #e74c3c;
+  background: #6E6E73;
+  color: #F0F1F2;
 }
 
 /* Popup Styles */
@@ -205,7 +207,7 @@ th {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(28, 28, 30, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,14 +215,14 @@ th {
 }
 
 .popup-content {
-  background: #132426;
+  background: #1C1C1E;
   padding: 20px;
   border-radius: 8px;
   width: 90%;
   max-width: 400px;
-  color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  border: 1px solid #05f26c;
+  color: #F0F1F2;
+  box-shadow: 0 4px 10px rgba(28, 28, 30, 0.3);
+  border: 1px solid #5A738E;
 }
 
 .popup-header {
@@ -228,20 +230,20 @@ th {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #6E6E73;
   padding-bottom: 10px;
 }
 
 .popup-header h3 {
   margin: 0;
-  color: #05f26c;
+  color: #BFC0C0;
   font-size: 1.2rem;
 }
 
 .popup-header button {
   background: none;
   border: none;
-  color: #fff;
+  color: #F0F1F2;
   cursor: pointer;
   font-size: 1.2rem;
 }
@@ -256,7 +258,7 @@ th {
 
 .sunday-list li {
   padding: 10px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #6E6E73;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -267,12 +269,12 @@ th {
 }
 
 .sunday-count {
-  background: #dc3545;
+  background: #6E6E73;
   padding: 2px 8px;
   border-radius: 10px;
   font-size: 0.8rem;
   font-weight: bold;
-  color: #fff;
+  color: #F0F1F2;
 }
 
 /* --- Novos Estilos Extraídos do Home.jsx --- */
@@ -280,14 +282,14 @@ th {
 /* Ícones do Mapa */
 .truck-icon-markup {
   font-size: 24px;
-  color: #007bff;
-  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
+  color: #5A738E;
+  filter: drop-shadow(2px 2px 2px rgba(28, 28, 30, 0.5));
 }
 
 .toll-icon-markup {
   font-size: 24px;
-  color: #ffc107;
-  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.5));
+  color: #BFC0C0;
+  filter: drop-shadow(2px 2px 2px rgba(28, 28, 30, 0.5));
 }
 
 /* Submenu Lateral */
@@ -295,16 +297,16 @@ th {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #6E6E73;
 }
 
 /* Seção do Mapa */
 .map-section-container {
   margin-bottom: 30px;
-  background: #132426;
+  background: #BFC0C0;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px rgba(28, 28, 30, 0.12);
 }
 
 .map-header {
@@ -324,8 +326,8 @@ th {
 }
 
 .btn-map-control {
-  color: #fff;
-  border: 1px solid #444;
+  color: #F0F1F2;
+  border: 1px solid #6E6E73;
   padding: 8px 12px;
   border-radius: 4px;
   cursor: pointer;
@@ -335,15 +337,15 @@ th {
 }
 
 .btn-map-control.danger {
-  background-color: #dc3545;
+  background-color: #6E6E73;
 }
 
 .btn-map-control.primary {
-  background-color: #1e3a3d;
+  background-color: #5A738E;
 }
 
 .btn-map-control.active {
-  background-color: #e74c3c;
+  background-color: #1C1C1E;
 }
 
 /* Controles de Rota */
@@ -359,18 +361,29 @@ th {
   min-width: 200px;
   padding: 10px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background: #1e3a3d;
-  color: #fff;
+  border: 1px solid #6E6E73;
+  background: #F0F1F2;
+  color: #1C1C1E;
 }
 
 .btn-route-action {
+  background-color: #5A738E;
+  border: 1px solid #5A738E;
+  border-radius: 4px;
+  color: #F0F1F2;
+  cursor: pointer;
+  padding: 8px 12px;
   white-space: nowrap;
 }
 
+.btn-route-action:hover {
+  background-color: #1C1C1E;
+  border-color: #1C1C1E;
+}
+
 .btn-toll-toggle {
-  color: #fff;
-  border: 1px solid #444;
+  color: #F0F1F2;
+  border: 1px solid #6E6E73;
   padding: 10px;
   border-radius: 4px;
   cursor: pointer;
@@ -381,11 +394,11 @@ th {
 }
 
 .btn-toll-toggle.active {
-  background-color: #e74c3c;
+  background-color: #5A738E;
 }
 
 .btn-toll-toggle.inactive {
-  background-color: #1e3a3d;
+  background-color: #6E6E73;
 }
 
 /* Informações da Rota */
@@ -412,9 +425,9 @@ th {
   width: 70px;
   padding: 5px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background: #1e3a3d;
-  color: #fff;
+  border: 1px solid #6E6E73;
+  background: #F0F1F2;
+  color: #1C1C1E;
 }
 
 .route-param-input.small {
@@ -423,10 +436,10 @@ th {
 
 .route-stats-box {
   padding: 10px;
-  background-color: rgba(5, 242, 108, 0.1);
-  border: 1px solid #05f26c;
+  background-color: #BFC0C0;
+  border: 1px solid #5A738E;
   border-radius: 4px;
-  color: #fff;
+  color: #1C1C1E;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -448,7 +461,7 @@ th {
 .btn-toggle-steps {
   background: none;
   border: none;
-  color: #05f26c;
+  color: #1C1C1E;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -458,12 +471,12 @@ th {
 /* Lista de Instruções */
 .instructions-container {
   margin-top: 10px;
-  background-color: #1e3a3d;
+  background-color: #F0F1F2;
   padding: 10px;
   border-radius: 4px;
   max-height: 200px;
   overflow-y: auto;
-  border: 1px solid #444;
+  border: 1px solid #BFC0C0;
 }
 
 .instructions-list {
@@ -474,14 +487,14 @@ th {
 
 .instruction-item {
   padding: 8px 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #BFC0C0;
   display: flex;
   justify-content: space-between;
   font-size: 0.9rem;
 }
 
 .instruction-dist {
-  color: #ccc;
+  color: #1C1C1E;
   font-size: 0.8rem;
 }
 
@@ -527,16 +540,16 @@ th {
 .btn-icon-only {
   background: none;
   border: none;
-  color: #fff;
+  color: #1C1C1E;
   cursor: pointer;
   display: flex;
   align-items: center;
 }
 
 .btn-export {
-  background-color: #08401b;
-  color: #05f26c;
-  border: 1px solid #05f26c;
+  background-color: #5A738E;
+  color: #F0F1F2;
+  border: 1px solid #5A738E;
   padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -549,7 +562,7 @@ th {
 .btn-locate {
   background: none;
   border: none;
-  color: #05f26c;
+  color: #1C1C1E;
   cursor: pointer;
 }
 
@@ -566,9 +579,9 @@ th {
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 4px;
-  border: 1px solid #444;
-  background: #1e3a3d;
-  color: #fff;
+  border: 1px solid #1C1C1E;
+  background: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .pagination-info {
@@ -583,9 +596,9 @@ th {
 }
 
 .popup-export-btn {
-  background-color: #08401b;
-  color: #05f26c;
-  border: 1px solid #05f26c;
+  background-color: #5A738E;
+  color: #F0F1F2;
+  border: 1px solid #5A738E;
   padding: 6px 12px;
   border-radius: 4px;
   cursor: pointer;
@@ -599,5 +612,5 @@ th {
 .popup-empty {
   text-align: center;
   padding: 20px;
-  color: #ccc;
+  color: #BFC0C0;
 }

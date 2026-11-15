@@ -1,16 +1,16 @@
 .descarga-container {
-  background-color: #132426;
+  background-color: #F0F1F2;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 8px rgba(28, 28, 30, 0.12);
   margin-top: 20px;
-  color: #fff;
+  color: #1C1C1E;
 }
 
 .descarga-container h2 {
-  color: #fff;
+  color: #1C1C1E;
   margin-bottom: 20px;
-  border-bottom: 2px solid #03a64a;
+  border-bottom: 2px solid #5A738E;
   padding-bottom: 10px;
 }
 
@@ -19,22 +19,22 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   margin-bottom: 30px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #BFC0C0;
   padding: 20px;
   border-radius: 6px;
 }
 
 .descarga-form input {
   padding: 10px;
-  border: 1px solid #444;
+  border: 1px solid #6E6E73;
   border-radius: 4px;
-  background-color: #1e3a3d;
-  color: #fff;
+  background-color: #F0F1F2;
+  color: #1C1C1E;
 }
 
 .btn-add {
-  background-color: #03a64a;
-  color: white;
+  background-color: #5A738E;
+  color: #F0F1F2;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -43,7 +43,7 @@
 }
 
 .btn-add:hover {
-  background-color: #028a3d;
+  background-color: #1C1C1E;
 }
 
 .descarga-table {
@@ -55,19 +55,19 @@
 .descarga-table td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #2a4d50;
+  border-bottom: 1px solid #BFC0C0;
 }
 
 .descarga-table th {
-  background-color: #0f1c1e;
-  color: #03a64a;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
   font-weight: 600;
   cursor: pointer;
   user-select: none;
 }
 
 .descarga-table th:hover {
-  background-color: #16292c;
+  background-color: #5A738E;
 }
 
 .th-content {
@@ -88,43 +88,43 @@
 }
 
 .badge-status.aguardando {
-  background-color: #ffc107;
-  color: #333;
+  background-color: #BFC0C0;
+  color: #1C1C1E;
 }
 
 .badge-status.disponivel {
-  background-color: #0dcaf0; /* Ciano/Azul Claro */
-  color: #000;
+  background-color: #5A738E;
+  color: #F0F1F2;
 }
 
 .badge-status.em-descarga {
-  background-color: #17a2b8;
-  color: #fff;
+  background-color: #6E6E73;
+  color: #F0F1F2;
 }
 
 .badge-status.folga {
-  background-color: #6f42c1;
-  color: #fff;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .badge-status.manutencao {
-  background-color: #fd7e14;
-  color: #fff;
+  background-color: #6E6E73;
+  color: #F0F1F2;
 }
 
 .badge-status.afastado {
-  background-color: #6c757d;
-  color: #fff;
+  background-color: #BFC0C0;
+  color: #1C1C1E;
 }
 
 .badge-status.descarregado {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #5A738E;
+  color: #F0F1F2;
 }
 
 .badge-status.carregando {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #5A738E;
+  color: #F0F1F2;
 }
 
 .actions-cell {
@@ -145,24 +145,24 @@
 }
 
 .btn-action.edit {
-  background-color: #ffc107;
-  color: #333;
+  background-color: #BFC0C0;
+  color: #1C1C1E;
 }
 .btn-action.start {
-  background-color: #17a2b8;
-  color: white;
+  background-color: #5A738E;
+  color: #F0F1F2;
 }
 .btn-action.finish {
-  background-color: #28a745;
-  color: white;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
 }
 .btn-action.delete {
-  background-color: #dc3545;
-  color: white;
+  background-color: #6E6E73;
+  color: #F0F1F2;
 }
 .btn-action.change-status {
-  background-color: #17a2b8;
-  color: white;
+  background-color: #5A738E;
+  color: #F0F1F2;
 }
 
 /* Menu Dropdown de Status */
@@ -174,8 +174,8 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #1e3a3d;
-  border: 1px solid #444;
+  background-color: #1C1C1E;
+  border: 1px solid #6E6E73;
   border-radius: 4px;
   padding: 5px;
   display: flex;
@@ -183,13 +183,13 @@
   gap: 5px;
   z-index: 100;
   min-width: 120px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(28, 28, 30, 0.3);
 }
 
 .status-menu button {
   background: none;
   border: none;
-  color: #fff;
+  color: #F0F1F2;
   padding: 8px;
   text-align: left;
   cursor: pointer;
@@ -198,21 +198,21 @@
 }
 
 .status-menu button:hover {
-  background-color: #03a64a;
+  background-color: #5A738E;
 }
 
 .empty-state {
   text-align: center;
   padding: 30px;
-  color: #888;
+  color: #1C1C1E;
 }
 
 .search-filter {
   padding: 10px;
-  border: 1px solid #444;
+  border: 1px solid #6E6E73;
   border-radius: 4px;
-  background-color: #1e3a3d;
-  color: #fff;
+  background-color: #F0F1F2;
+  color: #1C1C1E;
   width: 100%;
   max-width: 300px;
   margin-bottom: 20px;
@@ -228,9 +228,9 @@
 
 .pagination button {
   padding: 8px 15px;
-  background-color: #1e3a3d;
-  color: white;
-  border: 1px solid #444;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
+  border: 1px solid #6E6E73;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -241,8 +241,8 @@
 }
 
 .pagination button:not(:disabled):hover {
-  background-color: #03a64a;
-  border-color: #03a64a;
+  background-color: #5A738E;
+  border-color: #5A738E;
 }
 
 /* Painel de Contadores de Status */
@@ -254,8 +254,8 @@
 }
 
 .status-card-summary {
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid #444;
+  background-color: #BFC0C0;
+  border: 1px solid #6E6E73;
   border-radius: 6px;
   padding: 15px;
   display: flex;
@@ -274,35 +274,35 @@
 
 .status-card-summary .status-label {
   font-size: 0.85rem;
-  color: #ccc;
+  color: #1C1C1E;
   margin-bottom: 5px;
 }
 
 .status-card-summary .status-count {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #fff;
+  color: #1C1C1E;
 }
 
 /* Cores das bordas superiores baseadas no status */
 .status-card-summary.aguardando {
-  border-top-color: #ffc107;
+  border-top-color: #6E6E73;
 }
 .status-card-summary.carregando {
-  border-top-color: #007bff;
+  border-top-color: #5A738E;
 }
 .status-card-summary.descarregado {
-  border-top-color: #28a745;
+  border-top-color: #5A738E;
 }
 .status-card-summary.folga {
-  border-top-color: #6f42c1;
+  border-top-color: #1C1C1E;
 }
 .status-card-summary.manutencao {
-  border-top-color: #fd7e14;
+  border-top-color: #6E6E73;
 }
 .status-card-summary.afastado {
-  border-top-color: #6c757d;
+  border-top-color: #1C1C1E;
 }
 .status-card-summary.disponivel {
-  border-top-color: #0dcaf0;
+  border-top-color: #5A738E;
 }

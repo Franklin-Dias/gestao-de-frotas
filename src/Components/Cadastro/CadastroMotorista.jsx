@@ -193,8 +193,8 @@ const CadastroMotorista = ({ onCancel }) => {
         style={{
           marginBottom: "20px",
           padding: "15px",
-          backgroundColor: "#1e3a3d",
-          border: "1px dashed #444",
+          backgroundColor: "#1C1C1E",
+          border: "1px dashed #5A738E",
           borderRadius: "8px",
         }}
       >
@@ -202,7 +202,7 @@ const CadastroMotorista = ({ onCancel }) => {
           style={{
             marginTop: 0,
             fontSize: "1rem",
-            color: "#fff",
+            color: "#F0F1F2",
             display: "flex",
             alignItems: "center",
             gap: "10px",
@@ -218,17 +218,17 @@ const CadastroMotorista = ({ onCancel }) => {
             marginBottom: "10px",
           }}
         >
-          <p style={{ fontSize: "0.85rem", color: "#ccc", margin: 0 }}>
+          <p style={{ fontSize: "0.85rem", color: "#BFC0C0", margin: 0 }}>
             Formato: <strong>Nome, Função, CPF, Celular, Filial</strong>
           </p>
           <button
             type="button"
             onClick={handleDownloadTemplate}
             style={{
-              background: "none",
-              border: "1px solid #05f26c",
+              background: "#5A738E",
+              border: "1px solid #5A738E",
               borderRadius: "4px",
-              color: "#05f26c",
+              color: "#F0F1F2",
               cursor: "pointer",
               fontSize: "0.8rem",
               padding: "4px 8px",
@@ -244,7 +244,7 @@ const CadastroMotorista = ({ onCancel }) => {
           type="file"
           accept=".csv"
           onChange={handleFileUpload}
-          style={{ color: "#fff", width: "100%" }}
+          style={{ color: "#F0F1F2", width: "100%" }}
           disabled={isUploading}
         />
         {isUploading && (

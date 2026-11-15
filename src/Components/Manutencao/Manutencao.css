@@ -1,6 +1,6 @@
 .manutencao-container {
   padding: 20px;
-  color: #fff;
+  color: #1C1C1E;
   min-height: 100vh;
 }
 
@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #BFC0C0;
   padding-bottom: 10px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .manutencao-subtitle {
-  color: #ccc;
+  color: #6E6E73;
   margin-top: 5px;
 }
 
@@ -32,14 +32,14 @@
 .manutencao-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #1e3a3d;
+  background-color: #F0F1F2;
   border-radius: 8px;
   overflow: hidden;
 }
 
 .manutencao-thead {
-  background-color: #08401b;
-  color: #fff;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .manutencao-th {
@@ -48,7 +48,7 @@
 }
 
 .manutencao-tr {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #BFC0C0;
 }
 
 .manutencao-td {
@@ -62,7 +62,7 @@
 
 .carreta-text {
   font-size: 0.85em;
-  color: #ccc;
+  color: #6E6E73;
 }
 
 .date-info {
@@ -77,12 +77,12 @@
   gap: 8px;
   margin-top: 5px;
   font-size: 0.9em;
-  color: #ccc;
+  color: #6E6E73;
 }
 
 .time-badge {
-  background-color: #dc3545;
-  color: #fff;
+  background-color: #6E6E73;
+  color: #F0F1F2;
   padding: 6px 12px;
   border-radius: 20px;
   font-weight: bold;
@@ -96,21 +96,21 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #ffc107;
+  color: #6E6E73;
   font-weight: bold;
 }
 
 .empty-message {
   padding: 40px;
   text-align: center;
-  color: #ccc;
+  color: #6E6E73;
   font-size: 1.1em;
 }
 
 .btn-export-excel {
-  background-color: #08401b;
-  color: #05f26c;
-  border: 1px solid #05f26c;
+  background-color: #5A738E;
+  color: #F0F1F2;
+  border: 1px solid #5A738E;
   padding: 8px 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -122,18 +122,18 @@
 }
 
 .btn-export-excel:hover {
-  background-color: #05f26c;
-  color: #08401b;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .filters-container {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
-  background-color: #132426;
+  background-color: #BFC0C0;
   padding: 15px;
   border-radius: 8px;
-  border: 1px solid #444;
+  border: 1px solid #6E6E73;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -147,9 +147,9 @@
 .filter-input {
   padding: 8px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #1e3a3d;
-  color: #fff;
+  border: 1px solid #6E6E73;
+  background-color: #6E6E73;
+  color: #F0F1F2;
 }
 
 .pagination-container {
@@ -164,9 +164,9 @@
   padding: 8px 16px;
   cursor: pointer;
   border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #1e3a3d;
-  color: #fff;
+  border: 1px solid #1C1C1E;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
   transition: 0.3s;
 }
 
@@ -176,19 +176,19 @@
 }
 
 .pagination-btn:not(:disabled):hover {
-  background-color: #05f26c;
-  color: #08401b;
-  border-color: #05f26c;
+  background-color: #5A738E;
+  color: #F0F1F2;
+  border-color: #5A738E;
 }
 
 .pagination-info {
   font-size: 0.95em;
-  color: #ccc;
+  color: #6E6E73;
 }
 
 .btn-finalizar {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #5A738E;
+  color: #F0F1F2;
   border: none;
   padding: 8px 12px;
   border-radius: 4px;
@@ -201,5 +201,5 @@
 }
 
 .btn-finalizar:hover {
-  background-color: #218838;
+  background-color: #1C1C1E;
 }

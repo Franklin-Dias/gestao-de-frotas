@@ -1,12 +1,12 @@
 .motorista-container {
   padding: 20px;
-  color: #fff;
+  color: #1C1C1E;
   min-height: 100vh;
 }
 
 .motorista-header {
   margin-bottom: 30px;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #BFC0C0;
   padding-bottom: 10px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .motorista-subtitle {
-  color: #ccc;
+  color: #6E6E73;
   margin-top: 5px;
 }
 
@@ -43,16 +43,16 @@
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  color: #888;
+  color: #6E6E73;
 }
 
 .search-input {
   width: 100%;
   padding: 10px 10px 10px 35px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #1e3a3d;
-  color: #fff;
+  border: 1px solid #6E6E73;
+  background-color: #F0F1F2;
+  color: #1C1C1E;
   font-size: 1rem;
 }
 
@@ -63,14 +63,14 @@
 .motorista-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #1e3a3d;
+  background-color: #F0F1F2;
   border-radius: 8px;
   overflow: hidden;
 }
 
 .motorista-thead {
-  background-color: #08401b;
-  color: #fff;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .motorista-th {
@@ -80,7 +80,7 @@
 }
 
 .motorista-tr {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #BFC0C0;
 }
 
 .motorista-td {
@@ -96,7 +96,7 @@
 .btn-icon-whatsapp {
   background: none;
   border: none;
-  color: #25d366;
+  color: #1C1C1E;
   cursor: pointer;
   font-size: 1.2rem;
   display: flex;
@@ -114,18 +114,18 @@
 }
 
 .badge-domingos.success {
-  background-color: #28a745;
-  color: #fff;
+  background-color: #5A738E;
+  color: #F0F1F2;
 }
 
 .badge-domingos.danger {
-  background-color: #dc3545;
-  color: #fff;
+  background-color: #6E6E73;
+  color: #F0F1F2;
 }
 
 .btn-folga {
-  background-color: #17a2b8;
-  color: #fff;
+  background-color: #5A738E;
+  color: #F0F1F2;
   border: none;
   padding: 8px 12px;
   border-radius: 4px;
@@ -140,16 +140,16 @@
 .empty-message {
   padding: 40px;
   text-align: center;
-  color: #ccc;
+  color: #6E6E73;
   font-size: 1.1em;
 }
 
 .edit-input {
   padding: 6px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #132426;
-  color: #fff;
+  border: 1px solid #6E6E73;
+  background-color: #F0F1F2;
+  color: #1C1C1E;
   width: 100%;
   max-width: 150px;
 }
@@ -168,7 +168,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #F0F1F2;
   transition: opacity 0.2s;
 }
 
@@ -177,24 +177,24 @@
 }
 
 .btn-action.edit {
-  background-color: #ffc107;
-  color: #132426;
+  background-color: #BFC0C0;
+  color: #1C1C1E;
 }
 
 .btn-action.save {
-  background-color: #28a745;
+  background-color: #5A738E;
 }
 
 .btn-action.cancel {
-  background-color: #dc3545;
+  background-color: #6E6E73;
 }
 
 .date-input-folga {
   padding: 6px;
   border-radius: 4px;
-  border: 1px solid #444;
-  background-color: #132426;
-  color: #fff;
+  border: 1px solid #6E6E73;
+  background-color: #F0F1F2;
+  color: #1C1C1E;
   max-width: 140px;
 }
 
@@ -221,12 +221,12 @@
 
 .folga-separator {
   font-size: 0.8em;
-  color: #ccc;
+  color: #6E6E73;
   margin: 2px 0;
 }
 
 .btn-action.history {
-  background-color: #17a2b8;
+  background-color: #5A738E;
 }
 
 .modal-overlay {
@@ -235,7 +235,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(28, 28, 30, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,14 +243,14 @@
 }
 
 .modal-content {
-  background: #132426;
+  background: #1C1C1E;
   padding: 20px;
   border-radius: 8px;
   width: 90%;
   max-width: 500px;
-  color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  border: 1px solid #444;
+  color: #F0F1F2;
+  box-shadow: 0 4px 10px rgba(28, 28, 30, 0.3);
+  border: 1px solid #6E6E73;
 }
 
 .modal-header {
@@ -258,19 +258,19 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #6E6E73;
   padding-bottom: 10px;
 }
 
 .modal-header h3 {
   margin: 0;
-  color: #fff;
+  color: #F0F1F2;
 }
 
 .modal-header button {
   background: none;
   border: none;
-  color: #fff;
+  color: #F0F1F2;
   cursor: pointer;
   font-size: 1.2rem;
 }
@@ -285,7 +285,7 @@
 
 .history-list li {
   padding: 10px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #6E6E73;
   display: flex;
   justify-content: space-between;
   font-size: 0.95rem;
@@ -296,12 +296,12 @@
 }
 
 .em-folga-row {
-  background-color: rgba(111, 66, 193, 0.2); /* Destaque roxo suave */
+  background-color: #BFC0C0;
 }
 
 .badge-alert {
-  background-color: #6f42c1;
-  color: #fff;
+  background-color: #5A738E;
+  color: #F0F1F2;
   font-size: 0.75rem;
   padding: 2px 6px;
   border-radius: 4px;
@@ -312,9 +312,9 @@
 }
 
 .btn-export-report {
-  background-color: #08401b;
-  color: #05f26c;
-  border: 1px solid #05f26c;
+  background-color: #5A738E;
+  color: #F0F1F2;
+  border: 1px solid #5A738E;
   padding: 10px 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -326,8 +326,8 @@
 }
 
 .btn-export-report:hover {
-  background-color: #05f26c;
-  color: #08401b;
+  background-color: #1C1C1E;
+  color: #F0F1F2;
 }
 
 .celular-container {
@@ -338,6 +338,6 @@
 
 .history-empty {
   justify-content: center;
-  color: #ccc;
+  color: #BFC0C0;
 }
 }

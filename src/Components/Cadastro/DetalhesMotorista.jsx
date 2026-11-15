@@ -263,7 +263,7 @@ const DetalhesMotorista = () => {
           </>
         ) : (
           <div
-            style={{ textAlign: "center", color: "#888", marginTop: "2rem" }}
+            style={{ textAlign: "center", color: "#1C1C1E", marginTop: "2rem" }}
           >
             <h3>Selecione um motorista na lista ao lado</h3>
             <p>Os detalhes, histórico e opções aparecerão aqui.</p>
